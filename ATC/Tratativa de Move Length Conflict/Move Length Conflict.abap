@@ -1,8 +1,8 @@
 "para um campo MENOR usar o CONV.
 "para  um campo MAIOR usar PRAGMA.
 
-"40 = 18 = conv
-"18 = 40 = pragma
+"40 > 18 = conv
+"18 > 40 = pragma
 
 "Ex:
 "po_item-material      = w_config_cte-matnr.
