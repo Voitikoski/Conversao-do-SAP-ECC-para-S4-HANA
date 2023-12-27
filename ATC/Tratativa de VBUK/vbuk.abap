@@ -13,7 +13,7 @@
                     AND wbstk NE 'C'
                     AND wbstk NE 'B'.
 
-* ---> S4 Migration - 09/08/2023 - FV - Fim
+*<--- 18/12/2023 - Migração S4 – FV
 
 
 *******************************************************************
@@ -35,3 +35,5 @@
       INTO @wa_status
       FROM V_vbuk_S4
       WHERE vbeln = @p_remessa.
+
+*<--- 18/12/2023 - Migração S4 – FV
