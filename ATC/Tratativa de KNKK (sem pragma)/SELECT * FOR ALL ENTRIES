@@ -1,4 +1,4 @@
-*--> 27/11/2023 - Migração S4 -WS
+*--> 27/11/2023 - Migração S4 -FV
 *    SELECT *
 *      FROM knkk
 *      INTO TABLE t_knkk
@@ -34,4 +34,4 @@
           sy-dbcnt = 0.
         ENDIF.
 
-*--> 27/11/2023 - Migração S4 -WS
+*--> 27/11/2023 - Migração S4 -FV
