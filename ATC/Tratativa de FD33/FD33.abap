@@ -1,11 +1,14 @@
+      SET PARAMETER ID 'KUN' FIELD w_kunnr.
+      SET PARAMETER ID 'KKB' FIELD w_kkber.
+
 * ---> S4 Migration - 16/02/2024 - FV
 *     CALL TRANSACTION 'FD33' AND SKIP FIRST SCREEN.
 
 
-      SET PARAMETER ID 'UKM_SEGMENT' FIELD  w_kkber.
+      SET PARAMETER ID 'UKM_SEGMENT' FIELD  w_kkber. "Substituir SET PARAMETER ID 'KKB' FIELD w_kkber.
 
       DATA(lo_request) = NEW cl_bupa_navigation_request( ).
-      lo_request->set_partner_number( w_kunnr ).
+      lo_request->set_partner_number( w_kunnr ). "SET PARAMETER ID 'KUN' FIELD w_kunnr.
 
       lo_request->set_bupa_activity( '03' ). " 01 - Create, 02 - Change, 03 - Display
       lo_request->set_maintenance_id( 'B' ). " B - Partner
