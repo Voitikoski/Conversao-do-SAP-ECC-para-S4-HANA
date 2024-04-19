@@ -26,6 +26,6 @@ DELETE lt_bseg WHERE werks EQ ''.
 READ TABLE lt_bseg INTO DATA(wa_bseg) index 1.
 
 IF sy-subrc EQ 0.
- lw_013-werks = wa_bseg-fdgrp.
+ lw_013-werks = wa_bseg-werks.
 ENDIF.          
 * ---> S4 Migration - 19/04/2024 - FV 
