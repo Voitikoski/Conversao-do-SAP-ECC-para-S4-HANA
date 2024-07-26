@@ -1,0 +1,4 @@
+*---> S4 Migration - 24/07/2024 - FV
+*  CALL FUNCTION 'ISP_GET_MONTH_NAME'
+  CALL FUNCTION '/CPD/GET_MONTH_NAME'
+*<--- S4 Migration - 24/07/2024 - FV
